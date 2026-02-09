@@ -95,7 +95,7 @@ document.getElementById('quizForm').addEventListener('submit', async e => {
   loading.classList.remove('d-none');
 
   const formData = new FormData(e.target);
-  const params = new URLSearchParams(formData);
+  const params = new URLSearchParams(formData);   // ← this handles multiple values correctly
 
   try {
     const resp = await fetch(GAS_URL, { method: 'POST', body: params });
