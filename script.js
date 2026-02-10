@@ -1,4 +1,4 @@
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbyRusb8fcs3QJemU8hfEDGbb3AE79OmTWX_25gWamNT74IPMgLlhnuTGx6F7EPheRAQrg/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbyMS50o6pvgjd294q4HjnZl_0GeOJvEIHNqj9fkxHljJsHayRKPyZPcN9ghjgFe7sCWFw/exec';
 let currentStep = 1;
 
 function updateProgress() {
